@@ -1,3 +1,7 @@
+import java.util.*
+import data.structures.StringOperations
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+   val stack = StringOperations()
+   println(stack.isPalindrome("MAMTA"))
 }
